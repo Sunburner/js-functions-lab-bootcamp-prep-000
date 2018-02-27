@@ -1,25 +1,21 @@
-// write your code below!
-const name = 'you'
-const holiday = 'Independence Day'
-const days = 20
-const mothers_day = `Mother\'s Day`
+write your code below!
+// const name = 'you'
+// const holiday = 'Independence Day'
+// const days = 20
+// const mothers_day = `Mother\'s Day`
 
 function happyHolidays() {
-  return (`Happy holidays!`)
+  return "Happy holidays!"
 }
 
-function happyHolidaysTo() {
-  return (`Happy holidays, ${name}!`)
-
+function happyHolidaysTo(name) {
+  return `Happy holidays, ${name}!`
 }
 
-function happyHolidayTo() {
-  return (`Happy ${holiday}, ${name}!`)
-
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`
 }
 
-function holidayCountdown() {
-  return (`It\'s ${days} days until ${mothers_day}!`)
-
-
+function holidayCountdown(holiday, days) {
+  return `It's ${days} days until ${holiday}!`
 }
